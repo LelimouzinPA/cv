@@ -1,0 +1,148 @@
+html {
+    height: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background: #082330;
+    height: 100%;
+    margin: 100px;
+}
+
+.d-block {
+    padding-top: 10px;
+    border-radius: 30px;
+}
+
+#carousel3d,
+#carouselCameo,
+#carouselMac {
+    display: none;
+}
+
+#part1,
+#part2,
+#part3,
+#part4,
+.siteHeader {
+    padding: 50px;
+    margin-top: 30px;
+    text-align: center;
+    color: antiquewhite;
+    border-radius: 22px;
+}
+
+#part1 {
+    background-color: rgb(0, 128, 255, 0.75);
+}
+
+#part2 {
+    background-color: rgb(31, 143, 255, 0.85);
+}
+
+#part3 {
+    background-color: rgb(54, 152, 250, 0.95);
+}
+
+#part4 {
+    background-color: rgb(106, 180, 254, 0.95);
+}
+
+#part4 .buttom {
+    background-color: #000000;
+    border: none;
+    border-radius: 18px;
+}
+
+#part4 .buttom:hover {
+    background-color: #00000080;
+    border: none;
+    animation: shake 0.8s;
+    animation-iteration-count: 3;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    background-color: #6ab4fe;
+}
+
+p {
+    font-size: 30px;
+}
+
+.siteHeader {
+    background: url(../img/footer.PNG);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.arrondi {
+    border-radius: 22px;
+}
+
+.competence-unique {
+    width: 100%;
+    display: table;
+    margin-bottom: 20px;
+}
+
+.parallax {
+    background-image: url();
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #082330;
+    z-index: 1;
+}
+
+.page {
+    position: relative;
+    z-index: 5;
+}
